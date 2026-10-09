@@ -31,6 +31,7 @@ Em março de 2026 o fluxo de checkout apresentou tela em branco durante a execu�
 - [Casos de teste em Gherkin](docs/casos_gherkin.md)
 - [Casos de teste em passo a passo](docs/casos_passo_a_passo.md)
 - [Relatório de qualidade](docs/relatorio_de_qualidade.md): escopo, pontos positivos, melhorias, riscos e sugestão de automação
+- [Exemplos de cenários em Gherkin (WhatsApp)](docs/exemplos_whatsapp.md): 3 cenários de exemplo, um fluxo principal e dois casos de erro (escritos como exemplo, não executados)
 
 ## Cenários
 | ID | Cenário | Funcionalidade | Tipo | Prioridade | Resultado |
