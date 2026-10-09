@@ -1,6 +1,6 @@
 # Casos de teste em Gherkin
 
-Sintaxe Dado / Quando / Então. Cada caso está ligado a um cenário do [README](../README.md). Todos foram executados em 09/10/2026 com resultado **Aprovado**. Os nomes dos botões e produtos estão como aparecem no site (em inglês).
+Sintaxe Dado / Quando / Então. Cada caso está ligado a um cenário do [README](../README.md). Todos foram executados manualmente na realização do curso (março/2026) com resultado **Aprovado**. Os nomes dos botões e produtos estão como aparecem no site (em inglês).
 
 ## CT-G01 – Login com credenciais válidas
 **Cenário:** CT-001  
