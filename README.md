@@ -25,7 +25,18 @@ Em março de 2026 o fluxo de checkout apresentou tela em branco durante a execu�
 | [#2](https://github.com/EsterNevess/qa-saucedemo-teste-manual/issues/2) | Baixa | Checkout mostra apenas um erro por vez |
 | [#3](https://github.com/EsterNevess/qa-saucedemo-teste-manual/issues/3) | Baixa | Carrinho não mostra o total da compra |
 | [#4](https://github.com/EsterNevess/qa-saucedemo-teste-manual/issues/4) | Baixa | Carrinho não permite escolher a quantidade |
-| [#5](https://github.com/EsterNevess/qa-saucedemo-teste-manual/issues/5) | – | Tela em branco no checkout (não reproduzida, fechada) |
+| [#5](https://github.com/EsterNevess/qa-saucedemo-teste-manual/issues/5) | Alta (se confirmado) | Tela em branco no checkout — não reproduzida, investigada e fechada |
+
+### Investigação da ocorrência não reproduzida (#5)
+
+A falha não se repetiu na reexecução, mas não foi descartada sem análise. Voltando às evidências de
+março, o DevTools mostrava um `POST` para `submit.backtrace.io` (telemetria externa) com
+**503 Service Unavailable** no mesmo instante da tela em branco, em `checkout-step-one.html`.
+
+A hipótese registrada é que a indisponibilidade desse serviço externo coincidiu com a falha. Está
+documentada **como hipótese, não como causa confirmada**, com o critério de verificação para o caso
+de voltar a ocorrer: abrir a aba Network e conferir essa requisição. A issue foi fechada como não
+reproduzida, com instrução de reabertura.
 
 ## Conteúdo
 - [Casos de teste em Gherkin](docs/casos_gherkin.md)
